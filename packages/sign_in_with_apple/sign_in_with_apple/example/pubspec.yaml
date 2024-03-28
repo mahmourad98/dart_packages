@@ -4,20 +4,20 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.3.0
-  flutter: ">=3.19.1 <4.0.0"
+  sdk: ">=3.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  http: ^1.2.1
+  http: any
 
   sign_in_with_apple:
     path: ../
 
 dev_dependencies:
-  flutter_lints: ^3.0.1
+  flutter_lints: any
   flutter_test:
     sdk: flutter
 
